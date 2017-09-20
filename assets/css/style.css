@@ -1,9 +1,9 @@
 body {
     min-width: 1024px !important; 
 }
+
 .jogo{
-	height: 600px;
-	background-color: blue;
+	height: 700px;
 	background-image: url("/assets/images/sad_pepe_by_nihhal-d92w1ah.jpg");
 	background-size: 100% 100%;
 	
@@ -41,7 +41,7 @@ body {
 #btnJogar{
 	width: 300px;
 	margin: auto;
-	padding-top: 500px;
+	padding-top: 600px;
 }
 
 .painel{
