@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Titulo do site</title>
+	<title>Jogo da Forca</title>
 	<script type="text/javascript" src="/assets/js/jquery-3.2.1.js"></script>
 	<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
