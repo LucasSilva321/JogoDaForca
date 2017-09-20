@@ -69,6 +69,7 @@
 		}
 		if(contaErro){
 			erros++;
+			t -= 10;
 			document.getElementById("sapo"+erros).style.display = "none";
 		}
 		label.innerHTML = texto;

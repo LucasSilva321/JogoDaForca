@@ -1,5 +1,5 @@
 <h4>Desenvolvido por:</h4>
-<h2><i>Lucas Feitoza da Silva</i></h2>
+<h2>Lucas Feitoza da Silva</h2>
 <div style="height: 25px;margin-top: 5px">
 	<img src="/assets/images/git.png" height="25px" > 
 	<a href="https://github.com/LucasSilva321" style="line-height: 25px;">https://github.com/LucasSilva321</a>
