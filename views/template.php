@@ -9,12 +9,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<div class="navbar navbar-inverse " >
-		<div class="container">
-			<div class="navbar-header">
-				<a href="/" class="navbar-brand">HOME</a>
-			</div>
+	<div class="navbar navbar-inverse navbar-fixed-top" >
+		<div class="container" style="font-weight: bold;font-size: 18px;">
 			<ul class="nav navbar-nav">
+				<li><a href="/" >HOME</a></li>
 				<li><a href="/temas">TEMAS</a></li>
 				<li class="dropdown">
 					<a href="" class="dropdown-toggle" data-toggle="dropdown">PALAVRAS <span class="caret"></span></a>
