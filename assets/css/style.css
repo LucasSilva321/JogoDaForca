@@ -1,3 +1,6 @@
+body {
+    min-width: 1024px !important; 
+}
 .jogo{
 	height: 600px;
 	background-color: blue;
