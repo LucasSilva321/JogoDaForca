@@ -11,3 +11,5 @@
 <img src="/assets/images/html.png" width="400" height="200" style="margin-right: 20px;">
 <img src="/assets/images/bootstrap.png" width="200" height="200" style="margin-right: 40px;">
 <img src="/assets/images/mysql.png" width="200" height="200">
+
+<h3 style="margin-top: 30px;">Projeto criado apenas para fins didáticos.</h3>
