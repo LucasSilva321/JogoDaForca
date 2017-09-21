@@ -92,3 +92,50 @@ h2, h3{
 }
 
 
+
+
+
+@media only screen and (min-width: 770px){
+	#template{
+		min-height: 1250px;
+	}
+
+	.jumbotron{
+		height:420px;
+		line-height: 480px;
+		
+	}
+
+	.navbar-inverse{
+		height: 60px;
+	}
+
+	.navbar-inverse ul li a{
+		font-size: 25px;
+		line-height: 25px;
+	}
+
+	.jogo{
+		height: 750px;
+		
+	}
+
+	#btnJogar{
+		padding-top: 620px;
+	}
+
+	.rodape{
+		height: 110px;
+	}
+
+
+}
+
+@media only screen and (max-width: 770px){
+	#template{
+		min-height: 1100px;
+	}
+
+
+}
+
