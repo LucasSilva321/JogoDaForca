@@ -9,9 +9,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<div class="navbar navbar-inverse navbar-fixed-top" >
+	<div class="navbar navbar-inverse" >
 		<div class="container" style="font-weight: bold;font-size: 18px;">
-			<ul class="nav navbar-nav">
+			<ul class="nav navbar-nav" id="navbar">
 				<li><a href="/" >HOME</a></li>
 				<li><a href="/temas">TEMAS</a></li>
 				<li class="dropdown">
@@ -29,7 +29,7 @@
 		</div>
 	</div>
 
-	<div class="container-fluid" style="margin-top: 25px;min-height: 500px;">
+	<div class="container-fluid" style="margin-top: 25px;" id="template">
 		<?php $this->loadViewInTemplate($viewName,$viewData); ?>
 	</div>
 	
