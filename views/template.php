@@ -35,12 +35,9 @@
 	
 
 	<div class="rodape">
-		<div style="height: 40px;padding-top: 15px; float: left;margin-left: 10px" >
-			<img src="/assets/images/git.png" height="40px" > 
-			<a href="https://github.com/LucasSilva321" style="line-height: 40px;color: white;font-size: 20px">https://github.com/LucasSilva321</a>
-			<h4 style="color: white">Layout incompatível para versão mobile</h4>
-		</div>
-		<img src="/assets/images/tenor.gif" style="height: 100px;float: right;margin-right: 20px;">
+			<img src="/assets/images/git.png" id="imgGit"> 
+			<a href="https://github.com/LucasSilva321" style="line-height: 90px;color: white;font-size: 20px">https://github.com/LucasSilva321</a>	
+			<img src="/assets/images/tenor.gif" style="height: 100px;float: right;margin-right: 20px;" id="imgRodape">
 	</div>
 
 </body>

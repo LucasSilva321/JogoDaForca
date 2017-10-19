@@ -8,11 +8,8 @@
 			<div  id="btnJogar">
 				<a href="/jogar" class="btn btn-success btnJogar">Jogar</a>
 			</div>
-		</div>
-		
-		
+		</div>				
 	</div>
-
 	
 </div>
 

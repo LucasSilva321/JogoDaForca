@@ -28,28 +28,33 @@
 
 	<?php if(!isset($palavra) || empty($palavra)): ?>
 		<div id="espera" >
-			<br><h1 style="margin-left: 20px;">Escolha um tema para começar o jogo</h1>
+			<h1 align="center">Escolha um tema para começar o jogo</h1>
 		</div>
 	<?php else: ?>
 		<div class="pane" id="telaJogo" >
 			<div class="painel"  >
-				<button style="width: 200px;float: left;margin-right: 100px;" onclick="exibirDica()" class="btn btn-info" id="btnDica">Dica</button>
+
+				<button style="width: 200px;float: left;margin-right: 50px;"  onclick="exibirDica()" class="btn btn-info" id="btnDica">Dica</button>
+				<h1 class="lblDica" id="lblDica" style="display: none;"><?php echo $palavra['dica']; ?></h1>
 				
-				<h1 id="tempo" style="margin: 0;"></h1>
+				<div style="clear: both;"></div>
+						
 
-				
-				<img src="/assets/images/s1.jpg" id="sapo1">
-				<img src="/assets/images/s2.jpg" id="sapo2">
-				<img src="/assets/images/s3.jpg" id="sapo3">
-				<img src="/assets/images/s4.jpg" id="sapo4">
-				<img src="/assets/images/s5.jpg" id="sapo5">
-				<img src="/assets/images/s6.jpg" id="sapo6">
-				<img src="/assets/images/s7.jpg" id="sapo7">
-				<img src="/assets/images/forca1.png" id="forca">
-
-
+				<div class="quadroForca">
+					<h1 id="tempo" align="center"></h1>
+					<img src="/assets/images/s1.jpg" id="sapo1">
+					<img src="/assets/images/s2.jpg" id="sapo2">
+					<img src="/assets/images/s3.jpg" id="sapo3">
+					<img src="/assets/images/s4.jpg" id="sapo4">
+					<img src="/assets/images/s5.jpg" id="sapo5">
+					<img src="/assets/images/s6.jpg" id="sapo6">
+					<img src="/assets/images/s7.jpg" id="sapo7">
+					<img src="/assets/images/forca1.png" id="forca">
 				</div>
-				<h1 class="lblDica" id="lblDica" style="display: none;">Dica: <?php echo $palavra['dica']; ?></h1>
+				
+
+				
+				
 				<div class="painelFora">
 					<h3 ><?php echo strlen(str_replace(" ", "", $palavra['nome'])) ?> Letras: </h3>
 					<?php $mascara = ""; 

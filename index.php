@@ -1,7 +1,7 @@
 <?php
-require "config.php";
-
 session_start();
+require 'environment.php';
+require "config.php";
 
 spl_autoload_register(function($class){
 	if(strpos($class,"Controller") > -1){

@@ -1,44 +1,52 @@
 #sapo7{
 	position: absolute;
 	height: 27px;
-	top: 333px;
-	left: 311px;
+	top: 170px;
+	left: 45px;
 }
 
 #sapo6{
 	position: absolute;
 	height: 30px;
-	top: 359px;
-	left: 346px;
+	top: 196px;
+	left: 80px;
 }
 
 #sapo5{
 	position: absolute;
 	height: 30px;
-	top: 359px;
-	left: 286px;
+	top: 196px;
+	left: 21px;
 }
 #sapo4{
 	position: absolute;
 	height: 41px;
-	top: 389px;
-	left: 350px;
+	top: 226px;
+	left: 84px;
 }
 #sapo3{
 	position: absolute;
 	height: 41px;
-	top: 389px;
-	left: 317px;
+	top: 226px;
+	left: 51px;
 }
 #sapo2{
 	position: absolute;
 	height: 70px;
-	top: 430px;
-	left: 348px;
+	top: 267px;
+	left: 82px;
 }
 #sapo1{
 	position: absolute;
 	height: 70px;
-	top: 430px;
-	left: 314px;
+	top: 267px;
+	left: 48px;
+}
+
+#forca{
+	height: 298px;
+    width: 250px;
+    position: absolute;
+    top: 90px;
+    left: 50px;
 }

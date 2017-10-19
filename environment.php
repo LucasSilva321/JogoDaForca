@@ -1,5 +1,8 @@
 <?php
-define("ENVIRONMENT","development");//site interno localhost
-//define("ENVIRONMENT","production"); No site externo
+ //site interno localhost
+//define("ENVIRONMENT","development"); 
+
+ //No site externo
+define("ENVIRONMENT","production");
 
 ?>
