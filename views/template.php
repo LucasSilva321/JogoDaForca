@@ -36,7 +36,7 @@
 
 	<div class="rodape">
 			<img src="/assets/images/git.png" id="imgGit"> 
-			<a href="https://github.com/LucasSilva321" style="line-height: 90px;color: white;font-size: 20px">https://github.com/LucasSilva321</a>	
+			<a href="https://github.com/lucasftt" style="line-height: 90px;color: white;font-size: 20px">https://github.com/lucasftt</a>	
 			<img src="/assets/images/tenor.gif" style="height: 100px;float: right;margin-right: 20px;" id="imgRodape">
 	</div>
 
