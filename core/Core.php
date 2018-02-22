@@ -35,11 +35,9 @@ class Core{
 		}
 
 		require_once "core/controller.php";
-		
-		$c = new $currentController();
 
+		$c = new $currentController();
 		call_user_func_array(array($c,$currentAction), $params);
-		
 
 	}
 }
